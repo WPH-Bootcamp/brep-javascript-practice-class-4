@@ -1,6 +1,6 @@
 # Live Zoom Code — Starter (HTML + Tailwind CSS CLI)
 
-Starter kosong untuk live code. Semua styling pakai **Tailwind CSS v4 (CLI)**, semua interaksi pakai **JavaScript murni** tanpa library.
+Semua styling pakai **Tailwind CSS v4 (CLI)**, semua interaksi pakai **JavaScript murni** tanpa library.
 
 ---
 
@@ -28,8 +28,8 @@ Yang dijalankan di balik layar:
 npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
 ```
 
-| Bagian                | Artinya                                          |
-| --------------------- | ------------------------------------------------ |
+| Bagian                | Artinya                                           |
+| --------------------- | ------------------------------------------------- |
 | `-i ./src/input.css`  | File CSS sumber, isinya `@import "tailwindcss"`   |
 | `-o ./src/output.css` | File CSS hasil compile, yang dipakai `index.html` |
 | `--watch`             | Rebuild otomatis tiap kali file disimpan          |
@@ -110,7 +110,7 @@ Cara cek: buka Chrome, klik kanan di halaman, pilih **Inspect**, lalu aktifkan *
 
 | Sumber                      | Link                                                   |
 | --------------------------- | ------------------------------------------------------ |
-| Instalasi Tailwind CLI      | https://tailwindcss.com/docs/installation/tailwind-cli  |
+| Instalasi Tailwind CLI      | https://tailwindcss.com/docs/installation/tailwind-cli |
 | Dokumentasi Tailwind v4     | https://tailwindcss.com/docs                           |
 | Tailwind `@theme`           | https://tailwindcss.com/docs/theme                     |
 | Tailwind `@utility`         | https://tailwindcss.com/docs/adding-custom-styles      |
