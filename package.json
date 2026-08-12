@@ -1,0 +1,20 @@
+{
+  "name": "live-zoom-code",
+  "version": "1.0.0",
+  "description": "Starter project — HTML + Tailwind CSS CLI",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify"
+  },
+  "keywords": [
+    "html",
+    "tailwindcss",
+    "starter"
+  ],
+  "author": "Henry Rivardo",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

@@ -1,0 +1,50 @@
+/* ============================================================
+   input.css — SUMBER css-nya
+   ------------------------------------------------------------
+   Jangan edit src/output.css, karena file itu hasil compile
+   dan akan ditimpa setiap kali Tailwind rebuild.
+
+   Jalankan: npm run dev
+   ============================================================ */
+
+@import "tailwindcss";
+
+/* ============================================================
+   1. DESIGN TOKEN
+   ------------------------------------------------------------
+   Di Tailwind v4 tidak ada lagi tailwind.config.js.
+   Semua token ditulis sebagai CSS variable di dalam @theme,
+   dan Tailwind otomatis membuatkan utility class-nya.
+
+   Contoh:
+     --color-primary-300: #0093dd;   ->  bg-primary-300
+     --text-display-lg:   2.25rem;   ->  text-display-lg
+     --radius-2xl:        1rem;      ->  rounded-2xl
+   ============================================================ */
+
+@theme {
+  /* code here */
+}
+
+/* ============================================================
+   2. UTILITY CUSTOM
+   ------------------------------------------------------------
+   Dipakai kalau ada kombinasi style yang berulang terus.
+
+   Contoh:
+     @utility flex-center {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     }
+   ============================================================ */
+
+/* code here */
+
+/* ============================================================
+   3. BASE STYLE
+   ============================================================ */
+
+body {
+  /* code here */
+}
