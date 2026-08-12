@@ -19,7 +19,55 @@
   </head>
 
   <body>
-    <!-- code here -->
+    <!-- NAVBAR -->
+    <header
+      aria-label="Site header"
+      id="site-header"
+      class="fixed top-0 z-50 w-full"
+    >
+      <div class="flex-between custom-container md:h-21 h-16">
+        <!-- logo -->
+        <a href="#hero" aria-label="Beranda">
+          <img
+            src="./assets/images/logo.svg"
+            alt="logo"
+            width="158"
+            height="36"
+            class="max-md:h-9 max-md-w-39.5"
+          />
+        </a>
+        <!-- menu desktop -->
+        <nav class="hidden lg:block" aria-label="Primary Navigation">
+          <ul class="flex-start gap-3">
+            <li>
+              <a class="hover:text-primary-300 p-4" href="#about">About</a>
+            </li>
+            <li>
+              <a class="hover:text-primary-300 p-4" href="#services">Service</a>
+            </li>
+            <li>
+              <a class="hover:text-primary-300 p-4" href="#projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-primary-300 p-4" href="#testimonials"
+                >Testimonials</a
+              >
+            </li>
+            <li><a class="hover:text-primary-300 p-4" href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+        <!-- tombol -->
+
+        <a
+          class="bg-primary-300 text-sm-medium text-neutral-25 px-14.5 hidden h-11 shrink-0 cursor-pointer rounded-full justify-center outline-none lg:flex items-center"
+          aria-label="Get Started"
+          href="#contact"
+          >Get Started</a
+        >
+      </div>
+    </header>
 
     <script src="./js/main.js"></script>
   </body>
