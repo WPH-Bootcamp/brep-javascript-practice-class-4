@@ -100,7 +100,46 @@
     <main>
       <!-- section hero -->
 
-      <h1>Hero</h1>
+      <section
+        id="hero"
+        aria-labelledby="hero-heading"
+        class="custom-container flex flex-wrap items-center gap-7 overflow-hidden pt-28 md:pt-36.75"
+      >
+        <!-- hero kiri -->
+
+        <div class="flex-[5.1] basis-80">
+          <h1
+            class="display-lg-bold md:display-2xl-bold text-neutral-25"
+            id="hero-heading"
+          >
+            Your Trusted IT
+            <span class="text-primary-300">Partner for Digital </span>Success
+          </h1>
+          <p class="text-sm-regular md:text-md-regular mt-3 text-neutral-400">
+            We craft custom IT solutions that align with your goals, ensuring
+            efficiency, security, and innovation
+          </p>
+          <a
+            href="#contact"
+            aria-label="get started"
+            class="bg-primary-300 text-sm-medium text-neutral-25 px-14.5 hidden h-11 shrink-0 cursor-pointer rounded-full justify-center outline-none lg:flex items-center mt-8 md:mt-12 md:w-fit"
+            >Get Started</a
+          >
+        </div>
+
+        <!-- hero kanan -->
+
+        <div
+          class="flex-[4.9] basis-80 relative"
+          style="height: clamp(21.19rem, 52.73vw, 39.81rem)"
+        >
+          <img
+            src="./assets/images/hero-image.png"
+            alt="hero-image"
+            class="absolute inset-0 h-full w-full object-contain"
+          />
+        </div>
+      </section>
     </main>
 
     <script src="./js/main.js"></script>
